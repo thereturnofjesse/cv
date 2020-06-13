@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta description="Jesse Woolsey's Personal Site: Contact">
+
+  <title>Contact || Jesse Woolsey</title>
+</head>
+<body>
+  <!-- header with headshot -->
+  <table cellspacing="20">
+    <tr>
+      <td>  
+        <img src="images/jesse.png" height="150px" width="150px" alt="Headshot of jesse">
+      </td>    
+      <td>
+        <h1>Jesse Woolsey</h1>
+      </td>
+    </tr>
+  </table>
+    <hr>
+
+    <!-- contact info -->
+  <h3><strong>Ways to Reach Me</strong></h3>
+  <ul>
+    <li>Phone: <a href="tel:+1(585)6107673">585-610-7673</a></li>
+    <li>Email: <a href="mailto: jesse.woolsey@gmail.com" target="_blank">jesse.woolsey@gmail.com</a></li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/jessewoolsey" target="_blank">linkedin.com/in/jessewoolsey</a></li>
+  </ul>
+
+  <hr>
+<form action="mailto:jesse.woolsey@gmail.com" method=post enctype="text/plain">
+  <label for="name">Your Name: </label>
+  <input type="text" name="yourName" id="name" required autofocus><br>
+  <label for="file">Your Email: </label>
+  <input type="email" name="yourEmail"><br>
+  <label for="file">Submit your Doc: </label>
+  <input type="file" name="yourDoc"><br>
+  <label for="date">What is Today: </label>
+  <input type="date" name="yourDate"><br>
+  <label for="pet">Select Pet Preference: </label>
+    <div>
+      <input type="radio" id="dogs" name="yourPet" value="dogs" checked>
+      <label for="dogs">Dogs</label>
+    </div>
+    <div>
+      <input type="radio" id="cats" name="yourPet" value="cats">
+      <label for="cats">Cats</label>
+    </div>
+    <div>
+      <input type="radio" id="fish" name="yourPet" value="fish">
+      <label for="fish">Fish</label>
+    </div>
+  <label for="range">How Excited are you: </label>
+  <input type="range" name="yourExcitement"><br>
+  <label for="message">Your Message: </label><br>
+  <textarea name="yourMessage" id="message" cols="40" rows="5"></textarea><br>
+  <input type="submit" name="" id="">
+</form>
+
+  <hr>
+  <a href="index.html">Go Home</a>
+    <br>
+  <a href="hobbies.html">My Hobbies</a>
+  
+
+</body>
+</html>
