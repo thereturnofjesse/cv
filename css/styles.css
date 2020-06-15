@@ -1,0 +1,44 @@
+body{
+    background-color: #f4f6ff; 
+    color: #30475e;
+  }
+  
+hr {
+    border-style: none;
+    border-top: 5px dotted #f3c623;
+    width: 5%;
+  }
+
+h1 {
+  color: #127681;
+  transition: 0.5s;
+
+}
+
+h1:hover {
+  color: #10375c;
+  text-decoration-line: underline;
+  text-decoration-color: #f3c623;
+}
+
+h3 {
+  color: #127681;
+}
+
+a {
+  color: #10375c;
+}
+
+a:hover {
+  color:  #127681;
+}
+
+img {
+  border: 5px solid #f4f6ff;
+  border-radius: 50%;
+
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
